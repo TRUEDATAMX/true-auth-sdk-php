@@ -9,7 +9,7 @@ class ComposerStaticInitebc2a88965fae3dc35f30e51eb378a2d
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
-            'Tdse\\TrueAuthSdkPhp\\' => 20,
+            'TrueAuthSDK\\' => 12,
         ),
         'F' => 
         array (
@@ -18,7 +18,7 @@ class ComposerStaticInitebc2a88965fae3dc35f30e51eb378a2d
     );
 
     public static $prefixDirsPsr4 = array (
-        'Tdse\\TrueAuthSdkPhp\\' => 
+        'TrueAuthSDK\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -30,6 +30,15 @@ class ComposerStaticInitebc2a88965fae3dc35f30e51eb378a2d
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Firebase\\JWT\\BeforeValidException' => __DIR__ . '/..' . '/firebase/php-jwt/src/BeforeValidException.php',
+        'Firebase\\JWT\\CachedKeySet' => __DIR__ . '/..' . '/firebase/php-jwt/src/CachedKeySet.php',
+        'Firebase\\JWT\\ExpiredException' => __DIR__ . '/..' . '/firebase/php-jwt/src/ExpiredException.php',
+        'Firebase\\JWT\\JWK' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWK.php',
+        'Firebase\\JWT\\JWT' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWT.php',
+        'Firebase\\JWT\\JWTExceptionWithPayloadInterface' => __DIR__ . '/..' . '/firebase/php-jwt/src/JWTExceptionWithPayloadInterface.php',
+        'Firebase\\JWT\\Key' => __DIR__ . '/..' . '/firebase/php-jwt/src/Key.php',
+        'Firebase\\JWT\\SignatureInvalidException' => __DIR__ . '/..' . '/firebase/php-jwt/src/SignatureInvalidException.php',
+        'TrueAuthSDK\\TrueAuth' => __DIR__ . '/../..' . '/src/TrueAuth.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

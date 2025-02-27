@@ -3,7 +3,7 @@
         'name' => 'tdse/true-auth-sdk-php',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '48840ce050ae895ab56659a310273ec8bb295f4f',
+        'reference' => '6de7574a33cdb3ca715e920b2a206bf7ab8b3035',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'tdse/true-auth-sdk-php' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '48840ce050ae895ab56659a310273ec8bb295f4f',
+            'reference' => '6de7574a33cdb3ca715e920b2a206bf7ab8b3035',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
